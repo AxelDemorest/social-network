@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ProfileController!{% endblock %}
+
+{% block body %}
+    {% include 'navigation/navbar.html.twig' %}
+    <div class="account">
+        <div class="account-banner"></div>
+        <div class="body-container">
+            <div class="left-bloc">
+                <div class="avatar">
+                    <img src="https://cdn.radiofrance.fr/s3/cruiser-production/2019/04/a1698392-60a9-4fe1-bdd8-eaf6656b1efc/838_71okv3zc2ol._sl1200_.jpg" alt="d">
+                </div>
+                <div class="account_stats">
+                    <ul>
+                        <li>
+                            <span>Abonnées</span>
+                            <b>60</b>
+                        </li>
+                        <li>
+                            <span>Abonnements</span>
+                            <b>1234</b>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="center-bloc"></div>
+        </div>
+    </div>
+{% endblock %}

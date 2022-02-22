@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Post{% endblock %}
+
+{% block body %}
+    {% include 'navigation/navbar.html.twig' %}
+
+    <div class="new-post">
+        <div class="form-new-post">
+            <h2>Nouveau post</h2>
+            {{ include('post/_form.html.twig') }}
+        </div>
+        <a href="{{ path('home') }}"><button>back to list</button></a>
+    </div>
+{% endblock %}

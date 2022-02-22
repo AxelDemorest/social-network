@@ -1,0 +1,15 @@
+{{ form_start(form) }}
+    <div class="content-row">
+
+        <div class="form-error">
+            {{ form_errors(form.content) }}
+        </div>
+
+        {{ form_widget(form.content) }}
+
+        <small>{{ form_help(form.content) }}</small>
+    </div>
+
+    {{ form_row(form.submit)}}
+{{ form_end(form) }}
+

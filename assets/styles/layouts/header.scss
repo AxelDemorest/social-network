@@ -1,0 +1,38 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+  background-color: white;
+  border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+
+  // Style left navigation
+  .navigation-left-block h1 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+  }
+
+  // Style right navigation
+  .navigation-right-block {
+    display: flex;
+    align-items: center;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      font-family: 'Varela Round', sans-serif;
+    }
+
+    li {
+      padding: 0 15px;
+    }
+
+    li a {
+      color: black;
+    }
+
+    li a:hover {
+      color: #29b5ff;
+    }
+  }
+}
